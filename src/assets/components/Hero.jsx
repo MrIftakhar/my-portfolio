@@ -12,8 +12,7 @@ export default function Hero() {
     <div className="relative overflow-hidden min-h-[550px] sm:min-h-[600px] flex flex-col items-center">
       <div className="md:h-[550px] h-[500px] w-[450px] bg-gradient-to-r absolute from-[#6d2897] via-[#8e6cf5] to-[#bb61c5] transform z-0 right-2 top-28 rounded-3xl mx-20">
         <img
-          src="/Img/photo_2025-07-26_22-13-46.jpg"
-          alt="Profile"
+          src={`${import.meta.env.BASE_URL}Img/myimage.jpg`} alt="My Image"
           className="w-[300px] mx-auto my-18 rounded-3xl "
           data-aos="fade-up"
           data-aos-delay="300"
