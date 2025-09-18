@@ -25,7 +25,7 @@ const ProjectCard = ({ image, title, description, link }) => {
             className="absolute h-[202px] inset-0 flex items-center justify-center bg-purple-800 bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
           >
             <button className="bg-white font-medium text-black py-2 px-4 rounded-3xl shadow hover:text-white hover:bg-[#2879d5]">
-              Live Preview
+              Github Link
             </button>
           </a>
         </figure>

@@ -5,7 +5,7 @@ import Github from "/github.png";
 import Linkedin from "/linkedin.png";
 import Facebook from "/facebook.png";
 import Instagram from "/instagram.png";
-import Iftakhar from "/Iftakhar.pdf";
+import CVresumeweb from "/CVresumeweb.pdf";
 
 export default function Hero() {
   return (
@@ -34,7 +34,7 @@ export default function Hero() {
               Md. Iftakhar Islam
             </h1>
             <h2 className="text-xl sm:text-4xl md:text-2xl font-bold text-[#19071e] md:text-[#cc5f5f] mb-2">
-              Frontend Developer
+              Web Developer
             </h2>
           </header>
           <p className="text-base sm:text-lg md:text-lg text-gray-200 mb-6">
@@ -55,7 +55,7 @@ export default function Hero() {
               <img src={Instagram} alt="Instagram" className="w-11 h-11" />
             </a>
           </div>
-          <a href={Iftakhar} download>
+          <a href={CVresumeweb} download>
             <button className="inline-flex text-white border-2 py-2 px-6 focus:outline-none hover:bg-[#801b9c] hover:shadow-[0_0_40px_rgba(128,0,128,0.7)] rounded-full text-lg">
               Download CV
             </button>
