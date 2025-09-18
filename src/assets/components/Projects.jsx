@@ -3,6 +3,7 @@ import Project1 from '../../assets/project1.png';
 import Project2 from '../../assets/project2.png';
 import Project3 from '../../assets/project3.png';
 import Project4 from '../../assets/project4.png';
+import Project5 from '../../assets/project5.png';
 
 
 const ProjectCard = ({ image, title, description, link }) => {
@@ -68,6 +69,13 @@ export default function Projects() {
       description:
         "This is a modern blog website built using React.js, Tailwind CSS, HTML, CSS, and JavaScript. It features a dynamic user interface with a blog carousel, recent posts, category sections, pagination, and a newsletter subscription form. Posts are presented in card format, each linking to detailed content. The design is clean, responsive, and optimized for readability and user engagement. A navigation bar provides quick access to pages like Home, About, Blog, and Contact. The project showcases essential front-end development skills such as component reuse, routing, responsive design, and UI interactivity—ideal for demonstrating practical web development knowledge in a portfolio.",
       link: "https://github.com/MrIftakhar/React-Project/tree/main/blog-website",
+    },
+    {
+      image: Project5,
+      title: "Courses Manager",
+      description:
+        "A Laravel-based web application to manage courses, modules, and contents. Users can create new courses (with title, description, category, etc.), see all existing courses in a dashboard, view associated modules & module contents (text, file, link), and delete courses.",
+      link: "https://github.com/MrIftakhar/Laravel-Course-Manager",
     },
   ];
   return (
