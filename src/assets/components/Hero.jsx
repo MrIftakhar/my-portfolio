@@ -38,7 +38,7 @@ export default function Hero() {
             </h2>
           </header>
           <p className="text-base sm:text-lg md:text-lg text-gray-200 mb-6">
-            Hey there,I’m a self-taught front-end developer
+            Hey there,I’m a self-taught web Developer
               with a passion for clean problem-solving and website building.
               I bring a generalist mindset backed by a foundation in competitive programming and a strong desire to learn in collaborative environments.</p>
           <div className="flex items-center space-x-4 mb-6">
