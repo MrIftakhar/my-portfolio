@@ -3,6 +3,8 @@ import Html from "/html.png";
 import Javascript from "/javascript.png";
 import Tailwindcss from "/tailwindcss.png";
 import React_js from "/react_js.png";
+import PHP from"/PHP.png";
+import Laravel from "/Laravel.png";
 import Srobot from "/srobot.png";
 import Arobot from "/arobot.png";
 
@@ -38,6 +40,20 @@ const skillsData = [
     description:
       "React.js is a popular JavaScript library developed by Facebook for building dynamic user interfaces. It uses a component-based architecture, enabling reusable UI elements and efficient rendering with a virtual DOM. React simplifies frontend development, supports reactive data changes, and integrates well with modern tools, making it ideal for single-page applications.",
   },
+  {
+    id: 5,
+    image: PHP,
+    title: "PHP",
+    description:
+      "PHP is a general-purpose scripting language geared towards web development. It was originally created by Danish-Canadian programmer Rasmus Lerdorf in 1993 and released in 1995. The PHP reference implementation is now produced by the PHP Group.",
+  },
+  {
+    id: 6,
+    image: Laravel,
+    title: "Laravel",
+    description:
+      "Laravel provides a complete ecosystem for web artisans. Our open source PHP framework, products, packages, and starter kits offer everything you need to build, deploy, and monitor web applications.",
+  },
 ];
 
 const SkillBox = ({ image, title, description }) => (
@@ -68,8 +84,8 @@ export default function Skills() {
         <header>
           <h1 className="text-3xl sm:text-4xl font-bold">My Skills</h1>
           <p className="text-gray-400 mt-2 sm:mt-4 text-sm sm:text-base">
-            I'm a self-taught frontend developer skilled in HTML, CSS, TailwindCSS, <br /> 
-            JavaScript, and React.js. I have built responsive, <br />
+            I'm a self-taught Web Developer skilled in HTML, CSS, TailwindCSS, <br /> 
+            JavaScript, React.js, Php, Laravel. I have built responsive, <br />
             user-friendly interfaces and enjoy working with modern tools. I'm <br />
             eager to grow and take on real-world projects to strengthen my <br />
             skills.
