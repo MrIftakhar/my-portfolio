@@ -44,12 +44,16 @@ export default function About() {
             </h1>
           </header>
           <p className="text-base sm:text-lg md:text-xl text-gray-300 mb-6 sm:mb-8 leading-relaxed">
-            I'm a Computer Science graduate specializing in frontend
-            development. I enjoy crafting clean, responsive user interfaces and
-            building smooth user experiences using tools like React, JavaScript,
-            Tailwind CSS, etc. I'm passionate about turning ideas into
-            functional, real-world applications, and always eager to learn and
-            grow as a developer.
+            Hi, I’m Md. Iftakhar Islam a Computer Science graduate, a passionate
+            and enthusiastic Web Developer with a strong interest in creating
+            modern, responsive, and user-friendly websites. As a fresher, I
+            bring a fresh perspective and a strong foundation in HTML, CSS,
+            JavaScript, React, Tailwind CSS PHP, and Laravel. I enjoy turning
+            ideas into functional digital experiences and continuously learning
+            new tools and frameworks to improve my skills. I’m eager to
+            contribute my creativity, problem-solving abilities, and technical
+            knowledge to real-world projects, while growing as a professional in
+            the web development industry.
           </p>
           <footer>
             {/* <button
